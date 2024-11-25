@@ -7,6 +7,8 @@
 introduction text
 
 
+learning outcomes, code readability and maintainbility??? again?
+
 # Project Overview
 
 discuss methodlogies used (scrum, kanban, waterfall, etc)
