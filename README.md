@@ -29,6 +29,9 @@ Discuss the various searching alogrithms (Binary search, BFS, DFS)
 Flowchart? 
 Psuedocode?
 
+![image](https://github.com/user-attachments/assets/e755f9ea-89ee-445b-974e-95570b1944d0)
+
+
 
 # Testing Evidence
 
