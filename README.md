@@ -22,7 +22,13 @@ Some challenges I faced when making this project was the lack of time to collabe
 
 # Search Algorithms
 
-Discuss the various searching alogrithms (Binary search, BFS, DFS)
+In this project I added 3 searching algorithms that can be used by the player to narrow down or find the treasure in the grid. I will talk about them one by one and the first one is BFS.
+
+BFS or Breadth First Search is a searching alogrithm that search all of everything before traversing to the next level. In my case the BFS is searching all of the top row that being (0,0) (0,1) (0,2) (0,3) (0,4) which is the 5 points in the top row. Then it will search the row under that until it reaches the treasure. As it is searching for the treasure it will determine the shortest path to get to the desired location (treasure) whilst also avoid any dependencies which in my game are the obstacles.
+
+The next searching algorithm is Binary search. When using the Binary search, it is constantly splitting the selected row or column down until it finds the treasure. This algorithm divides and conquers the row or column continues to divide until the treasure is found. Binary search is also efficient in larger dataset and its as useful in this scenario as it would in another.
+
+Lastly, DFS or Depth First Search is a searching algorithm that explores each cell in a row then backtracks and starts at the beginning then next row down until the treasure is reached. Additionally is an obstacle is on the path it will backtrack to just before the obstacle and continue its search for the treasure.
 
 
 # Pseudocode and Flowchart
@@ -57,7 +63,7 @@ Psuedocode?
 
 # Conclusions
 
-sum up how the project went. shortly mention the challenges and solutions
+Overall this project was enjoyable and also a challenging experience. I feel as if a whole the project has improved my python skills at developing functions, loops, lists and more. Additionally, the searching algorithms were a suprising challenge that interested me and caught my curiosity.
 
 
 # References
