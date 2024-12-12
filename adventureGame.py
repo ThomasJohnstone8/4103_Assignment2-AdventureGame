@@ -140,12 +140,18 @@ def binarySearch(grid, searchType, target):
 
 # Main game loop
 def main():
-    # Initialize players as Player 1 and Player 2
+    # Initialise players as Player 1 and Player 2
     players = [Player("1"), Player("2")]  # Name players as 1 and 2
     # Generate grid with players and treasure
     grid, treasurePosition = generateGrid(players)
     
     currentPlayerIndex = 0 # 0 is 1 and 1 is 2 because python counting starts at 0
+    
+    # Print a welcome message for player to understand the game
+    print("Welcome to my Adventure Game! In this game you will face obstacles(O), traps(X) and power ups(P).")
+    print("The main goal of this gane is to reach the treasure(T).")
+    print("This can be done using the searching algorithms given to you the player or searching yourself. Good Luck!")
+    
     while True:
         player = players[currentPlayerIndex]
         # Display grid and player info
